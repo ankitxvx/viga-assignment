@@ -3,11 +3,11 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const client = new Client({
-    user: "viga_c0g9_user",
-    password: "5gaq899lsi0sbnBrySEOL8XyafzcS6dV",
-    host: 'dpg-co3i3ckf7o1s738hov50-a.oregon-postgres.render.com',
+    user: process.env.USER ,
+    password: process.env.PASSWORD,
+    host: process.env.HOST,
     port:5432,
-    database:"viga_c0g9",
+    database:process.env.DB,
     ssl: true,  
 });
 
