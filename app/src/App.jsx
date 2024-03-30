@@ -29,7 +29,7 @@ function App() {
   return (
     <>
     <div className='flex flex-col justify-center items-center'>
-    <div className ='mt-[100px]  text-2xl'>
+    <div className ='mt-[100px] p-2 text-2xl'>
           Total Price: {total} cents
     </div>
     <form onSubmit={handleSubmit} className=' rounded-2xl bg-blue-300 flex flex-col w-[400px] h-[400px]   justify-evenly items-center' action="">
